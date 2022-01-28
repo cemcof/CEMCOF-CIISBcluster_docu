@@ -1,0 +1,269 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Usage &mdash; CIISBcluster</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Support" href="Support.html" />
+    <link rel="prev" title="Access" href="Access.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: #d91818" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> CIISBcluster
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../NEWS.html">NEWS</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../general.html">General Information</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="Introduction.html">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Configuration.html">Configuration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Access.html">Access</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Usage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Support.html">Support</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../software.html">Software</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">CIISBcluster</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../general.html">General Information</a> &raquo;</li>
+        
+      <li>Usage</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/General/Usage.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="usage">
+<h1>Usage<a class="headerlink" href="#usage" title="Permalink to this headline">¶</a></h1>
+<p>Following the login to the frontend node
+<code class="docutils literal notranslate"><span class="pre">ciisb.ceitec.muni.cz</span></code>,
+the users shall setup the computational task, which is subsequently started on one of the computational nodes. It is prohibited to run any computational task on the frontend node. On the other hand, it is allowed to use the frontend for simple graphical tasks (<em>e.g. class selection in Relion</em>).</p>
+<p><strong>SOFTWARE</strong></p>
+<p>The installed software is accessible through the application <em>modules</em>. Use the commands:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">module av                       # to list all available software packages</span>
+<span class="go">module list                     # to list the software packages in the active path</span>
+<span class="go">module load &lt;software-name&gt;     # to add particular software package to the active path</span>
+<span class="go">module unload &lt;software-name&gt;   # to remove the particular software package from the active path</span>
+</pre></div>
+</div>
+<p>For more details on the proper usage of the module command, please refer to <a class="reference external" href="https://wiki.metacentrum.cz/wiki/Application_modules">MetaCentrumWiki</a> or other dedicated resources (e.g. <a class="reference external" href="https://modules.readthedocs.io/en/latest/">here</a>).</p>
+<p><strong>PBS</strong></p>
+<p>The computational tasks are not started directly but submitted to the PBS queueing system instead. In short,the commands or scripts are not run directly but submitted to the queue using <code class="docutils literal notranslate"><span class="pre">qsub</span></code> command. The parameters of the <code class="docutils literal notranslate"><span class="pre">qsub</span></code> command which will allocate the requested resources can be either set in the command line</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">qsub -q default -l select=1:ncpus=1:ngpus=1:mem=8gb -l walltime=2:00:00 ./run.py</span>
+</pre></div>
+</div>
+<p>by which we allocate 1 CPU, 1 GPU, 8GB RAM for 2 hours in the queue named <em>default</em> to run the computational tasks defined in the script <em>run.py</em>. Alternatively, the resources can be allocated within a header of a bash script which we will name e.g. <em>run.pbs</em> (see below).</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">#</span>!/bin/bash
+<span class="gp">#</span>PBS -N jobName
+<span class="gp">#</span>PBS -q default
+<span class="gp">#</span>PBS -l <span class="k">select</span><span class="o">=</span><span class="m">1</span>:ncpus<span class="o">=</span><span class="m">16</span>:ngpus<span class="o">=</span><span class="m">4</span>:mem<span class="o">=</span>128gb:scratch_local<span class="o">=</span>500gb
+<span class="gp">#</span>PBS -l <span class="nv">walltime</span><span class="o">=</span><span class="m">18</span>:00:00
+
+<span class="go">module add &lt;software-name&gt;</span>
+
+<span class="go">cd $PBS_O_WORKDIR</span>
+
+<span class="go">./run.py</span>
+
+<span class="go">clean_scratch</span>
+</pre></div>
+</div>
+<p>The script is then submitted to the queue using:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">qsub run.pbs</span>
+</pre></div>
+</div>
+<p>The queue named <em>default</em> is a general queue which should be used in all jobs run on this cluster. Other imprtant resource variable are <em>scratch_local</em> and <em>scratch_ssd</em> which will allocate space either on the standard rotational disc, or the SSD disc of the computational node. The other important variables which can be used in the scripts comprise <code class="docutils literal notranslate"><span class="pre">$SCRATCHDIR</span></code> which points to the local scratch on the computational node allocated by <em>scratch_local</em> or <em>scratch_ssd</em> and <code class="docutils literal notranslate"><span class="pre">$PBS_O_WORKDIR</span></code> which corresponds to the directory from which the <em>qsub</em> command was initiated.</p>
+<p>When we need to optimize the computational job or interact with it, we can start an interactive session using <code class="docutils literal notranslate"><span class="pre">qsub</span> <span class="pre">-I</span></code> command:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">qsub -I -q default -l select=1:ncpus=1:ngpus=1:mem=8gb -l walltime=8:00:00</span>
+</pre></div>
+</div>
+<p>Please rerefer to the following <a class="reference external" href="https://wiki.metacentrum.cz/wiki/About_scheduling_system">page</a> for more comprehensive overview of the proper usage.</p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="Support.html" class="btn btn-neutral float-right" title="Support" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="Access.html" class="btn btn-neutral float-left" title="Access" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2022, Jiri Novacek
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
