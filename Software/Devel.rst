@@ -6,6 +6,8 @@ Development
 .. toctree::
 
    cuda
+   
+   matlab
 
    mcr
 
