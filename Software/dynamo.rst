@@ -20,8 +20,21 @@ DYNAMO
    ssh ciisb.ceitec.muni.cz
    module add dynamo
 
+* in order to use autoalign_dynamo_ from Alister Burt (works with Matlab not MCR) do following
+
+.. code-block:: console
+
+   ssh ciisb.ceitec.muni.cz
+   module add matlab
+   module add dynamo
+   module add imod
+   matlab
+   dynamo_activate
+   run /cemcofsw/em/dynamo/site-packages/autoalign_dynamo/bin/autoalign_activate.m
+
 **DEVELOPER TUTORIAL/HELP PAGES**
 
 * documentation_
 .. _Daniel Castano-Diez: https://www.c-cina.org/stahlberg/team/daniel-castano-diez/
+.. _autoalign_dynamo: https://github.com/alisterburt/autoalign_dynamo
 .. _documentation: https://bio3d.colorado.edu/imod/
