@@ -1,6 +1,9 @@
 ====
 NEWS
 ====
+
+22-01-30
+  * dynamo_autoalign from Alister Burt installed
 22-01-29
   * Matlab R2021a installed
 21-10-01
