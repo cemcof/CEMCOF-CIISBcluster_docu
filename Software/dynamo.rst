@@ -26,10 +26,9 @@ DYNAMO
 
    ssh ciisb.ceitec.muni.cz
    module add matlab
-   module add dynamo
    module add imod
    matlab
-   dynamo_activate
+   run /cemcofsw/em/dynamo/1.1.514/dynamo_activate.m
    run /cemcofsw/em/dynamo/site-packages/autoalign_dynamo/bin/autoalign_activate.m
 
 **DEVELOPER TUTORIAL/HELP PAGES**
