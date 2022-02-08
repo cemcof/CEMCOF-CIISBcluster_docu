@@ -65,7 +65,7 @@ Please rerefer to the following page_ for more comprehensive overview of the pro
 
 **PBS Interactive Jobs with GUI**
 
-To run PBS jobs with interactive Graphical User Interface (GUI), the job must be submitted in a specif way. Job employs Virtual_Network_Computing_ (VNC), which is a system for sharing remote desktop with very low latency. The connection is tunneled through ssh.
+To run PBS jobs with interactive Graphical User Interface (GUI), the job must be submitted in a specif way. Job employs VirtualNetworkComputing_ (VNC), which is a system for sharing remote desktop with very low latency. The connection is tunneled through ssh.
 
 1.) Prepare the job script in a separate directory:
 
@@ -92,8 +92,8 @@ To run PBS jobs with interactive Graphical User Interface (GUI), the job must be
    >>> TigerVNC server started succesfully!
        Date: Mon Feb  7 17:15:04 CET 2022
       JobID: 9131.crybox-pro.ceitec.muni.cz
-      Node: ciisb1.ceitec.muni.cz
-      Logs: ciisb1.ceitec.muni.cz:/home/durnik/.vnc/ciisb1.ceitec.muni.cz.2.startlog
+       Node: ciisb1.ceitec.muni.cz
+       Logs: ciisb1.ceitec.muni.cz:/home/durnik/.vnc/ciisb1.ceitec.muni.cz.2.startlog
              ciisb1.ceitec.muni.cz:/home/durnik/.vnc/ciisb1.ceitec.muni.cz:2.log
 
       VNCID: user@ciisb1.ceitec.muni.cz:2
