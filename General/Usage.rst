@@ -68,6 +68,7 @@ Please rerefer to the following page_ for more comprehensive overview of the pro
 To run PBS jobs with interactive Graphical User Interface (GUI), the job must be submitted in a specif way. Job employs VirtualNetworkComputing_ (VNC), which is a system for sharing remote desktop with very low latency. The connection is tunneled through ssh.
 
 Procedure:
+
 1.) Prepare the job script in a separate directory (``~/tigervnc-pbs`` in this tutorial):
 
 .. code-block:: console
@@ -110,7 +111,7 @@ Alternatively, set up a vncviewer for your workstation (local session) to maximi
 
 5.) Vncviewer window opens, left click on the icon of the terminal in the left upper corner and access your GUI applications from the command line. If the window is closed, the session is not terminated and can be accessed later (until the job is killed by walltime). To reconnect, just rerun the ``vncviewer`` command with given VNCID.
 
-5.) To terminate the VNC session, there are several options:
+6.) There are several options to terminate the VNC session:
 
 a) Click the very left icon in the opened vncview and then click ``Exit`` in opened popup. Logout terminates the VNC session, PBS job is finnished. This is preffered way of termination.
 
