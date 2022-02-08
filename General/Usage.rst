@@ -20,7 +20,7 @@ The installed software is accessible through the application *modules*. Use the 
 
 For more details on the proper usage of the module command, please refer to MetaCentrumWiki_ or other dedicated resources (e.g. here_).
 
-## PBS
+**PBS**
 
 The computational tasks are not started directly but submitted to the PBS queueing system instead. In short,the commands or scripts are not run directly but submitted to the queue using ``qsub`` command. The parameters of the ``qsub`` command which will allocate the requested resources can be either set in the command line
 
