@@ -65,7 +65,7 @@ Please rerefer to the following page_ for more comprehensive overview of the pro
 
 **PBS Interactive Jobs with GUI**
 
-To run PBS jobs with interactive Graphical User Interface (GUI), the job must be submitted in a specif way. Job employs `Virtual Network Computing`_ (VNC), which is a system for sharing remote desktop with very low latency. VNC systems consist from two counterparts: VNC server, which is run on the computational node/remote machine; and VNC viewer, which is used to connect to the VNC server from the front node or workstation. The connection is tunneled through ssh.
+To run PBS jobs with interactive Graphical User Interface (GUI), the job must be submitted in a specif way. Job employs `Virtual Network Computing`_ (VNC), which is a system for sharing remote desktop with very low latency. VNC system consists from two counterparts: VNC server, which is run on the computational node/remote machine; and VNC viewer, which is used to connect to the VNC server from the front node or workstation. The connection is tunneled through ssh.
 
 Procedure:
 
@@ -85,7 +85,7 @@ Procedure:
 
    user@ciisb:~/tigervnc-pbs$ qsub -l select=1:ncpus=1:mem=2gb -l walltime=2:00:00 run_server
 
-3.) When the job starts, a file ``VNCSERVER_INFO`` appears in the job directory. Print the content of the file to find out information about the started VNC session, especially session VNCID, which is needed for the connection. ``VNCSERVER_INFO`` file should look like this:
+3.) When the job starts, a file ``VNCSERVER_INFO`` appears in the job directory. Print the content of the file to find out information about the started VNC session, especially session VNCID, which is needed for the connection. Obtained ``VNCSERVER_INFO`` file should look like this:
 
 .. code-block:: console
 
@@ -113,7 +113,7 @@ Alternatively, set up a vncviewer for your workstation (local session) to maximi
 
 6.) There are several options to terminate the VNC session:
 
-a) Click the very left icon in the opened vncview and then click ``Exit`` in opened popup. Logout terminates the VNC session, PBS job is finnished. This is preffered way of termination.
+a) Click the very left icon in the opened vncview and then click ``Exit`` in the opened popup. Logout terminates the VNC session and PBS job is finnished. This is the preferred way of termination.
 
 b) Use one of the following commands:
 
@@ -131,27 +131,27 @@ c) Kill the PBS job via ``qdel`` (be carrefull about killing another of your job
 
 .. code-block:: console
 
-   user@ciisb:~$ qdel 9131
+   user@ciisb:~$ qdel 9131 # replace with you Job ID
 
-In all cases, the ``VNCSERVER_INFO`` file is updated to contain information about the way of server termination.
+In all cases, the ``VNCSERVER_INFO`` file is updated to contain information about the way of server termination, i.e.,
 
-For standard termination:
+for standard termination:
 
 .. code-block:: console
 
    >>> TigerVNC server was terminated!
        Date: Tue Feb  8 11:22:31 CET 2022
 
-For killing by PBS:
+for killing by PBS:
 
 .. code-block:: console
 
    >>> TigerVNC server was KILLED by the batch system!
        Date: Mon Feb  7 17:52:50 CET 2022
 
-Additional information about `vncserver-pbs`, `vncserver` and `vncviewer` commands can be obtained with `-h` option.
+Additional information about ``vncserver-pbs``, ``vncserver`` and ``vncviewer`` commands can be obtained with ``-h`` option.
 
-*Please, make sure to terminate all your VNC session, when your work is finnished, to avoid unwanted blocking of the resources.*
+*Please, make sure to terminate all your VNC session, when your work is finished, to avoid unwanted blocking of the resources.*
 
 .. _MetacentrumWiki: https://wiki.metacentrum.cz/wiki/Application_modules
 .. _here: https://modules.readthedocs.io/en/latest/
