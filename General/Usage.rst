@@ -133,8 +133,8 @@ c) Kill the PBS job via ``qdel`` (be carrefull about killing another of your job
 
    user@ciisb:~$ qdel 9131
 
-In all cases, the ``VNCSERVER_INFO`` file is updated to contain information about the way of server termination.
-For standard termination:
+   In all cases, the ``VNCSERVER_INFO`` file is updated to contain information about the way of server termination.
+   For standard termination:
 
 .. code-block:: console
 
