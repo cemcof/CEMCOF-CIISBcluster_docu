@@ -89,7 +89,7 @@ To run PBS jobs with interactive Graphical User Interface (GUI), the job must be
 
    user@ciisb:~/tigervnc-pbs$ cat VNCSERVER_INFO
    
-   \>\>\> TigerVNC server started succesfully!
+   >>> TigerVNC server started succesfully!
        Date: Mon Feb  7 17:15:04 CET 2022
       JobID: 9131.crybox-pro.ceitec.muni.cz
       Node: ciisb1.ceitec.muni.cz
@@ -139,7 +139,7 @@ For killing by PBS:
 
 .. code-block:: console
 
-   \>\>\> TigerVNC server was KILLED by the batch system!
+   >>> TigerVNC server was KILLED by the batch system!
        Date: Mon Feb  7 17:52:50 CET 2022
 
 
