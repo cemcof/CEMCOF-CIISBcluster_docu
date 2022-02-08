@@ -132,7 +132,7 @@ For standard termination:
 
 .. code-block:: console
 
-   \>\>\> TigerVNC server was terminated!
+   >>> TigerVNC server was terminated!
        Date: Tue Feb  8 11:22:31 CET 2022
 
 For killing by PBS:
