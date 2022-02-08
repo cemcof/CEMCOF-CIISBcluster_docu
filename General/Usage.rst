@@ -149,7 +149,7 @@ For killing by PBS:
    >>> TigerVNC server was KILLED by the batch system!
        Date: Mon Feb  7 17:52:50 CET 2022
 
-**Please, make sure to terminate all your session, when your work is finnished, to avoid unwanted blocking of the resources.**
+.. note:: Please, make sure to terminate all your session, when your work is finnished, to avoid unwanted blocking of the resources.
 
 .. _MetacentrumWiki: https://wiki.metacentrum.cz/wiki/Application_modules
 .. _here: https://modules.readthedocs.io/en/latest/
