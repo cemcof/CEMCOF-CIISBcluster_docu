@@ -65,7 +65,7 @@ Please rerefer to the following page_ for more comprehensive overview of the pro
 
 **PBS Interactive Jobs with GUI**
 
-To run PBS jobs with interactive Graphical User Interface (GUI), the job must be submitted in a specif way. Job employs VirtualNetworkComputing_ (VNC), which is a system for sharing remote desktop with very low latency. The connection is tunneled through ssh.
+To run PBS jobs with interactive Graphical User Interface (GUI), the job must be submitted in a specif way. Job employs `Virtual Network Computing`_ (VNC), which is a system for sharing remote desktop with very low latency. The connection is tunneled through ssh.
 
 Procedure:
 
@@ -154,4 +154,4 @@ For killing by PBS:
 .. _MetacentrumWiki: https://wiki.metacentrum.cz/wiki/Application_modules
 .. _here: https://modules.readthedocs.io/en/latest/
 .. _page: https://wiki.metacentrum.cz/wiki/About_scheduling_system
-.. _Virtual_Network_Computing: https://en.wikipedia.org/wiki/Virtual_Network_Computing
+.. _`Virtual Network Computing`: https://en.wikipedia.org/wiki/Virtual_Network_Computing
