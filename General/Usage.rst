@@ -67,7 +67,8 @@ Please rerefer to the following page_ for more comprehensive overview of the pro
 
 To run PBS jobs with interactive Graphical User Interface (GUI), the job must be submitted in a specif way. Job employs VirtualNetworkComputing_ (VNC), which is a system for sharing remote desktop with very low latency. The connection is tunneled through ssh.
 
-1.) Prepare the job script in a separate directory:
+Procedure:
+1.) Prepare the job script in a separate directory (``~/tigervnc-pbs`` in this tutorial):
 
 .. code-block:: console
 
@@ -77,13 +78,13 @@ To run PBS jobs with interactive Graphical User Interface (GUI), the job must be
    
    vncserver-pbs
 
-2.) Submit the job into the batch system specifying required resources. Note: despite the resulting VNC session will be interactive, option ``-I`` is not used when submitting the job.
+2.) Submit the job into the batch system specifying required resources. Note: Despite the resulting VNC session will be interactive, option ``-I`` is not used when submitting the job.
 
 .. code-block:: console
 
    qsub -l select=1:ncpus=1:mem=2gb -l walltime=2:00:00 run_server
 
-3.) When the job starts, a file ``VNCSERVER_INFO`` appears in the job directory. Print the content of the file to find out information about the started VNC session, especially session VNCID, which is needed for the connection. ``VNCSERVER_INFO`` should look like this:
+3.) When the job starts, a file ``VNCSERVER_INFO`` appears in the job directory. Print the content of the file to find out information about the started VNC session, especially session VNCID, which is needed for the connection. ``VNCSERVER_INFO`` file should look like this:
 
 .. code-block:: console
 
@@ -93,8 +94,8 @@ To run PBS jobs with interactive Graphical User Interface (GUI), the job must be
        Date: Mon Feb  7 17:15:04 CET 2022
       JobID: 9131.crybox-pro.ceitec.muni.cz
        Node: ciisb1.ceitec.muni.cz
-       Logs: ciisb1.ceitec.muni.cz:/home/durnik/.vnc/ciisb1.ceitec.muni.cz.2.startlog
-             ciisb1.ceitec.muni.cz:/home/durnik/.vnc/ciisb1.ceitec.muni.cz:2.log
+       Logs: ciisb1.ceitec.muni.cz:/home/user/.vnc/ciisb1.ceitec.muni.cz.2.startlog
+             ciisb1.ceitec.muni.cz:/home/user/.vnc/ciisb1.ceitec.muni.cz:2.log
 
       VNCID: user@ciisb1.ceitec.muni.cz:2
 
@@ -102,12 +103,10 @@ To run PBS jobs with interactive Graphical User Interface (GUI), the job must be
 
 .. code-block:: console
 
-   user@workstation:~$ ssh -X ciisb.ceitec.muni.cz
+   user@ciisb:~/tigervnc-pbs$ module add tigervnc
+   user@ciisb:~/tigervnc-pbs$ vncviewer user@ciisb1.ceitec.muni.cz:2 # replace with VNCID of your session
    
-   user@ciisb:~$ module add tigervnc
-   user@ciisb:~$ vncviewer user@ciisb1.ceitec.muni.cz:2 # replace with VNCID of your session
-   
-Alternatively, set up a vncviewer for your workstation (local session) to maximize benefits of VNC (Tutorial To-Be-Added). 
+Alternatively, set up a vncviewer for your workstation (local session) to maximize benefits of VNC (To-Be-Added). 
 
 5.) Vncviewer window opens, left click on the icon of the terminal in the left upper corner and access your GUI applications from the command line. If the window is closed, the session is not terminated and can be accessed later (until the job is killed by walltime). To reconnect, just rerun the ``vncviewer`` command with given VNCID.
 
@@ -119,13 +118,16 @@ b) Use one of the following commands:
 
    user@ciisb:~$ vncserver-pbs -k VNCID
 
-If you are locally logged on the machine with the VNC server, you can also use:
+If you are logged on the machine with the VNC server, you can also use:
 
 .. code-block:: console
 
-   user@ciisb:~$ vncserver -k :display_ID
+   user@ciisb2:~$ vncserver -k :display_ID
    
 c) Kill the PBS job via ``qdel`` (be carrefull about killing another of your jobs or sessions).
+
+.. code-block:: console
+   user@ciisb:~$ qdel 9131
 
 In all cases, the ``VNCSERVER_INFO`` file is updated to contain information about the way of server termination.
 For standard termination:
@@ -142,6 +144,7 @@ For killing by PBS:
    >>> TigerVNC server was KILLED by the batch system!
        Date: Mon Feb  7 17:52:50 CET 2022
 
+Please, make sure to terminate all your session, when your work is finnished, to avoid unwanted blocking of the resources.
 
 .. _MetacentrumWiki: https://wiki.metacentrum.cz/wiki/Application_modules
 .. _here: https://modules.readthedocs.io/en/latest/
