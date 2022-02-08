@@ -20,7 +20,7 @@ The installed software is accessible through the application *modules*. Use the 
 
 For more details on the proper usage of the module command, please refer to MetaCentrumWiki_ or other dedicated resources (e.g. here_).
 
-**PBS**
+## PBS
 
 The computational tasks are not started directly but submitted to the PBS queueing system instead. In short,the commands or scripts are not run directly but submitted to the queue using ``qsub`` command. The parameters of the ``qsub`` command which will allocate the requested resources can be either set in the command line
 
@@ -133,8 +133,9 @@ c) Kill the PBS job via ``qdel`` (be carrefull about killing another of your job
 
    user@ciisb:~$ qdel 9131
 
-   In all cases, the ``VNCSERVER_INFO`` file is updated to contain information about the way of server termination.
-   For standard termination:
+In all cases, the ``VNCSERVER_INFO`` file is updated to contain information about the way of server termination.
+
+For standard termination:
 
 .. code-block:: console
 
@@ -148,7 +149,7 @@ For killing by PBS:
    >>> TigerVNC server was KILLED by the batch system!
        Date: Mon Feb  7 17:52:50 CET 2022
 
-Please, make sure to terminate all your session, when your work is finnished, to avoid unwanted blocking of the resources.
+**Please, make sure to terminate all your session, when your work is finnished, to avoid unwanted blocking of the resources.**
 
 .. _MetacentrumWiki: https://wiki.metacentrum.cz/wiki/Application_modules
 .. _here: https://modules.readthedocs.io/en/latest/
