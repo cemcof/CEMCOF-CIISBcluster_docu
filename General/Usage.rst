@@ -70,6 +70,7 @@ To run PBS jobs with interactive Graphical User Interface (GUI), the job must be
 1.) Prepare the job script in a separate directory:
 
 .. code-block:: console
+
    #!/bin/bash
    
    module add tigervnc
@@ -79,11 +80,13 @@ To run PBS jobs with interactive Graphical User Interface (GUI), the job must be
 2.) Submit the job into the batch system specifying required resources. Note: despite the resulting VNC session will be interactive, option ``-I`` is not used when submitting the job.
 
 .. code-block:: console
+
    qsub -l select=1:ncpus=1:mem=2gb -l walltime=2:00:00 run_server
 
 3.) When the job starts, a file ``VNCSERVER_INFO`` appears in the job directory. Print the content of the file to find out information about the started VNC session, especially session VNCID, which is needed for the connection. ``VNCSERVER_INFO`` should look like this:
 
 .. code-block:: console
+
    user@ciisb:~/tigervnc-pbs$ cat VNCSERVER_INFO
    
    \>\>\> TigerVNC server started succesfully!
@@ -98,6 +101,7 @@ To run PBS jobs with interactive Graphical User Interface (GUI), the job must be
 4.) Connect to the VNC server. Note: ssh connection to ``ciisb.ceitec.muni.cz`` must be established with option ``-X`` for the vncviewer to function properly.
 
 .. code-block:: console
+
    user@workstation:~$ ssh -X ciisb.ceitec.muni.cz
    
    user@ciisb:~$ module add tigervnc
@@ -112,23 +116,29 @@ a) Click the very left icon in the opened vncview and then click ``Exit`` in ope
 b) Use one of the following commands:
 
 .. code-block:: console
+
    user@ciisb:~$ vncserver-pbs -k VNCID
 
 If you are locally logged on the machine with the VNC server, you can also use:
 
 .. code-block:: console
+
    user@ciisb:~$ vncserver -k :display_ID
    
 c) Kill the PBS job via ``qdel`` (be carrefull about killing another of your jobs or sessions).
 
 In all cases, the ``VNCSERVER_INFO`` file is updated to contain information about the way of server termination.
 For standard termination:
+
 .. code-block:: console
+
    \>\>\> TigerVNC server was terminated!
        Date: Tue Feb  8 11:22:31 CET 2022
 
 For killing by PBS:
+
 .. code-block:: console
+
    \>\>\> TigerVNC server was KILLED by the batch system!
        Date: Mon Feb  7 17:52:50 CET 2022
 
