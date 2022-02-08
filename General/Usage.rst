@@ -65,7 +65,7 @@ Please rerefer to the following page_ for more comprehensive overview of the pro
 
 **PBS Interactive Jobs with GUI**
 
-To run PBS jobs with interactive Graphical User Interface (GUI), the job must be submitted in a specif way. Job employs `Virtual Network Computing`_ (VNC), which is a system for sharing remote desktop with very low latency. The connection is tunneled through ssh.
+To run PBS jobs with interactive Graphical User Interface (GUI), the job must be submitted in a specif way. Job employs `Virtual Network Computing`_ (VNC), which is a system for sharing remote desktop with very low latency. VNC systems consist from two counterparts: VNC server, which is run on the computational node/remote machine; and VNC viewer, which is used to connect to the VNC server from the front node or workstation. The connection is tunneled through ssh.
 
 Procedure:
 
@@ -149,7 +149,9 @@ For killing by PBS:
    >>> TigerVNC server was KILLED by the batch system!
        Date: Mon Feb  7 17:52:50 CET 2022
 
-*Please, make sure to terminate all your session, when your work is finnished, to avoid unwanted blocking of the resources.*
+Additional information about `vncserver-pbs`, `vncserver` and `vncviewer` commands can be obtained with `-h` option.
+
+*Please, make sure to terminate all your VNC session, when your work is finnished, to avoid unwanted blocking of the resources.*
 
 .. _MetacentrumWiki: https://wiki.metacentrum.cz/wiki/Application_modules
 .. _here: https://modules.readthedocs.io/en/latest/
