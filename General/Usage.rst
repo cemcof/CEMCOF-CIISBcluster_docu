@@ -111,7 +111,9 @@ Alternatively, set up a vncviewer for your workstation (local session) to maximi
 5.) Vncviewer window opens, left click on the icon of the terminal in the left upper corner and access your GUI applications from the command line. If the window is closed, the session is not terminated and can be accessed later (until the job is killed by walltime). To reconnect, just rerun the ``vncviewer`` command with given VNCID.
 
 5.) To terminate the VNC session, there are several options:
+
 a) Click the very left icon in the opened vncview and then click ``Exit`` in opened popup. Logout terminates the VNC session, PBS job is finnished. This is preffered way of termination.
+
 b) Use one of the following commands:
 
 .. code-block:: console
