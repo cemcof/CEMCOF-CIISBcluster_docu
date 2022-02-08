@@ -82,7 +82,7 @@ Procedure:
 
 .. code-block:: console
 
-   qsub -l select=1:ncpus=1:mem=2gb -l walltime=2:00:00 run_server
+   user@ciisb:~/tigervnc-pbs$ qsub -l select=1:ncpus=1:mem=2gb -l walltime=2:00:00 run_server
 
 3.) When the job starts, a file ``VNCSERVER_INFO`` appears in the job directory. Print the content of the file to find out information about the started VNC session, especially session VNCID, which is needed for the connection. ``VNCSERVER_INFO`` file should look like this:
 
@@ -127,6 +127,7 @@ If you are logged on the machine with the VNC server, you can also use:
 c) Kill the PBS job via ``qdel`` (be carrefull about killing another of your jobs or sessions).
 
 .. code-block:: console
+
    user@ciisb:~$ qdel 9131
 
 In all cases, the ``VNCSERVER_INFO`` file is updated to contain information about the way of server termination.
