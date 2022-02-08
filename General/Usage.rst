@@ -63,6 +63,8 @@ When we need to optimize the computational job or interact with it, we can start
 
 Please rerefer to the following page_ for more comprehensive overview of the proper usage.
 
+**PBS Interactive GUI Jobs**
+
 .. _MetacentrumWiki: https://wiki.metacentrum.cz/wiki/Application_modules
 .. _here: https://modules.readthedocs.io/en/latest/
 .. _page: https://wiki.metacentrum.cz/wiki/About_scheduling_system
