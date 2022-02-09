@@ -20,6 +20,8 @@ DYNAMO
    ssh ciisb.ceitec.muni.cz
    module add dynamo
 
+* `dynamo2m` package from Alister Burt is a part of the dynamo installation
+
 * in order to use autoalign_dynamo_ from Alister Burt (works with Matlab not MCR) do following
 
 .. code-block:: console
