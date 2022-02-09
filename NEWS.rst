@@ -3,7 +3,7 @@ NEWS
 ====
 
 22-02-08
-  * :ref:`added support for interactive GUI jobs <NEWS GUI PBS>`
+  * added support for interactive GUI jobs, see General Information - Usage
 22-01-30
   * dynamo_autoalign from Alister Burt installed
 22-01-29
