@@ -63,6 +63,8 @@ When we need to optimize the computational job or interact with it, we can start
 
 Please rerefer to the following page_ for more comprehensive overview of the proper usage.
 
+.. _NEWS GUI PBS:
+
 **PBS Interactive Jobs with GUI**
 
 To run PBS jobs with interactive Graphical User Interface (GUI), the job must be submitted in a specif way. Job employs `Virtual Network Computing`_ (VNC), which is a system for sharing remote desktop with very low latency. VNC system consists from two counterparts: VNC server, which is run on the computational node/remote machine; and VNC viewer, which is used to connect to the VNC server from the front node or workstation. The connection is tunneled through ssh.
