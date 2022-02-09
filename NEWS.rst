@@ -1,7 +1,8 @@
 ====
 NEWS
 ====
-
+22-02-09
+  * dynamo2m package from Alister Burt installed as a part of Dynamo installation
 22-02-08
   * added support for interactive GUI jobs, see General Information - Usage
 22-01-30
