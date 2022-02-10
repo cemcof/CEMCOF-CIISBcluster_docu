@@ -151,7 +151,7 @@ for killing by PBS:
 
 Additional information about ``vncserver-pbs``, ``vncserver`` and ``vncviewer`` commands can be obtained with ``-h`` option.
 
-*Please, make sure to terminate all your VNC session, when your work is finished, to avoid unwanted blocking of the resources.*
+*Please, make sure to terminate all your VNC session, when your work is finished, to avoid unwanted blocking of the resources. You can use command ``vncserver-pbs --list`` to show all running VNC sessions on the cluster*
 
 .. _MetacentrumWiki: https://wiki.metacentrum.cz/wiki/Application_modules
 .. _here: https://modules.readthedocs.io/en/latest/
