@@ -131,7 +131,7 @@ c) Kill the PBS job via ``qdel`` (be carrefull about killing another of your job
 
 .. code-block:: console
 
-   user@ciisb:~$ qdel 9131 # replace with you Job ID
+   user@ciisb:~$ qdel 9131 # replace with your Job ID
 
 In all cases, the ``VNCSERVER_INFO`` file is updated to contain information about the way of server termination, i.e.,
 
