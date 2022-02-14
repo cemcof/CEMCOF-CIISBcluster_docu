@@ -100,7 +100,9 @@ Procedure:
 
       VNCID: user@ciisb1.ceitec.muni.cz:2
 
-4.) Connect to the VNC server. Note: ssh connection to ``ciisb.ceitec.muni.cz`` must be established with option ``-X`` for the vncviewer to function properly.
+4.) Connect to the VNC server. 
+
+`Note: ssh connection to` ``ciisb.ceitec.muni.cz`` `must be established with option` ``-X`` `for the vncviewer to function properly.`
 
 .. code-block:: console
 
@@ -117,9 +119,10 @@ To maximize the benefits of the VNC, you should connect to the VNC server from y
    user@localmachine:~/ciisb-vncviewer-linux64$ export TIGERVNC_PATH=~/ciisb-vncviewer-linux64 # Change according to actual location of the vncviewer
    user@localmachine:~/ciisb-vncviewer-linux64$ ./vncviewer user@ciisb1.ceitec.muni.cz:2 # replace with VNCID of your session
    
-If you wish to execute vncviewer without specifying the path, you have to include these two lines into your ``.bashrc`` file:
+If you wish to execute vncviewer without specifying the path, you have to include these two lines into your ``~/.bashrc`` file:
 
 .. code-block:: console
+
    export TIGERVNC_PATH=~/ciisb-vncviewer-linux64 # Change according to the actual location of the vncviewer
    export PATH=~/ciisb-vncviewer-linux64:$PATH # Change according to the actual location of the vncviewer
    
