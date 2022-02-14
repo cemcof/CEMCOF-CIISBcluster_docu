@@ -107,7 +107,27 @@ Procedure:
    user@ciisb:~/tigervnc-pbs$ module add tigervnc
    user@ciisb:~/tigervnc-pbs$ vncviewer user@ciisb1.ceitec.muni.cz:2 # replace with VNCID of your session
    
-Alternatively, set up a vncviewer for your workstation (local session) to maximize benefits of VNC (To-Be-Added). 
+To maximize the benefits of the VNC, you should connect to the VNC server from your local session. If your work station does not have the CIISB software modules mounted (``/cemcofsw`` folder), you can obtain vncviewer in the following way:
+
+.. code-block:: console
+
+   user@localmachine:~$ scp username@ciisb.ceitec.muni.cz:/cemcofsw/general/ciisb-vncviewer-linux64.tar .
+   user@localmachine:~$ tar xvf ciisb-vncviewer-linux64.tar
+   user@localmachine:~$ cd ciisb-vncviewer-linux64
+   user@localmachine:~/ciisb-vncviewer-linux64$ export TIGERVNC_PATH=~/ciisb-vncviewer-linux64 # Change according to actual location of the vncviewer
+   user@localmachine:~/ciisb-vncviewer-linux64$ ./vncviewer user@ciisb1.ceitec.muni.cz:2 # replace with VNCID of your session
+   
+If you wish to execute vncviewer without specifying the path, you have to include these two lines into your ``.bashrc`` file:
+
+.. code-block:: console
+   export TIGERVNC_PATH=~/ciisb-vncviewer-linux64 # Change according to the actual location of the vncviewer
+   export PATH=~/ciisb-vncviewer-linux64:$PATH # Change according to the actual location of the vncviewer
+   
+Then, after opening new terminal, you should be able to use vncviewer as:
+
+.. code-block:: console
+
+   user@ciisb:~/tigervnc-pbs$ vncviewer user@ciisb1.ceitec.muni.cz:2 # replace with VNCID of your session
 
 5.) Vncviewer window opens, left click on the icon of the terminal in the left upper corner and access your GUI applications from the command line. If the window is closed, the session is not terminated and can be accessed later (until the job is killed by walltime). To reconnect, just rerun the ``vncviewer`` command with given VNCID.
 
