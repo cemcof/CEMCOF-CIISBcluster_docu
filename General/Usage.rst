@@ -102,14 +102,14 @@ Procedure:
 
 4.) Connect to the VNC server. 
 
-`Note: ssh connection to` ``ciisb.ceitec.muni.cz`` `must be established with option` ``-X`` `for the vncviewer to function properly.`
+*Note: ssh connection to* ``ciisb.ceitec.muni.cz`` *must be established with option* ``-X`` *for the vncviewer to function properly.*
 
 .. code-block:: console
 
    user@ciisb:~/tigervnc-pbs$ module add tigervnc
    user@ciisb:~/tigervnc-pbs$ vncviewer user@ciisb1.ceitec.muni.cz:2 # replace with VNCID of your session
    
-However, to maximize the benefits of the VNC, you should connect to the VNC server directly from your local session. If your work station does not use the CIISB software modules, you can obtain vncviewer in the following way:
+However, to maximize the benefits of VNC, you should connect to the VNC server directly from your local session. If your work station does not use the CIISB software modules, you can obtain vncviewer in the following way:
 
 .. code-block:: console
 
