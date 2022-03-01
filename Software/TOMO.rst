@@ -5,8 +5,6 @@ TOMO
 
 .. toctree::
 
-   amira
-
    bsoft
 
    dynamo
