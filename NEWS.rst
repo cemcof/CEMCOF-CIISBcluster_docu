@@ -1,6 +1,8 @@
 ====
 NEWS
 ====
+22-03-01
+  * Fiji 2.0.0 installed
 22-02-09
   * dynamo2m package from Alister Burt installed as a part of Dynamo installation
 22-02-08
