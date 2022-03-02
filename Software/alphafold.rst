@@ -25,7 +25,7 @@ ALPHAFOLD
 
    alphafold -f <sequence.fasta>
 
-* run the script without any input to get the list of all parameters
+* run the script without any input or ``-h`` to get the list of all parameters
 
 **DEVELOPER TUTORIAL/HELP PAGES**
 
