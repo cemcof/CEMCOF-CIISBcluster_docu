@@ -1,6 +1,8 @@
 ====
 NEWS
 ====
+22-03-02
+  * Alphafold 2.1.1 and 2.1.2 installed 
 22-03-01
   * Fiji 2.0.0 installed
 22-02-09
