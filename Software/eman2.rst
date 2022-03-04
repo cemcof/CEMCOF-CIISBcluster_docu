@@ -5,7 +5,7 @@ EMAN2
 
 **VERSIONS:**
 
-* 2.91
+* 2.31
 
 **GENERAL INFORMATION**
 
@@ -13,12 +13,12 @@ Complex software package with implemented workflow for single particle analysis,
 
 **USAGE SPECIFIC INFORMATION**
 
-* for GUI based applications such as *e2boxer_old.py*
+* for GUI based applications such as *e2boxer_old.py* see the section **PBS Interactive Job with GUI** (General Information -> Usage)
 
 .. code-block:: console
 
-   ssh -X ciisb.ceitec.muni.cz
-   module add eman2
+   ssh ciisb.ceitec.muni.cz
+   module add eman
 
 **DEVELOPER TUTORIAL/HELP PAGES**
 
