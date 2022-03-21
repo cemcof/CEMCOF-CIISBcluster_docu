@@ -1,6 +1,8 @@
 ====
 NEWS
 ====
+22-03-21
+  * Alphafold 2.2.0, MMseqs2 13-45111, HHSuite 3.3.0, and  blast+ 2.13.0 installed
 22-03-02
   * Alphafold 2.1.1 and 2.1.2 installed 
 22-03-01
