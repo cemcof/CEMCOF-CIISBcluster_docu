@@ -1,3 +1,8 @@
+.. bioinformatics:
+
+Bioinformatics
+-----------
+
 .. toctree::
 
    alphafold
