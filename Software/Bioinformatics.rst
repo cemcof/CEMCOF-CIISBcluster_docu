@@ -1,0 +1,5 @@
+.. toctree::
+
+   alphafold
+
+   trimal
