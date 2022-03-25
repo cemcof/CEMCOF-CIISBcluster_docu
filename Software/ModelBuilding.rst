@@ -4,8 +4,6 @@ Model Building & Visualization
 -------------------------------
 
 .. toctree::
-
-   alphafold
    
    amira
 
