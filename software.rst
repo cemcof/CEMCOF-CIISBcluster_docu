@@ -12,6 +12,8 @@ Software
 
    Software/ModelBuilding
 
+   Software/Bioinformatics
+
    Software/OtherTools
 
    Software/Devel
