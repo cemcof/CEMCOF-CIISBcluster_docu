@@ -1,4 +1,4 @@
-.. alphafold:
+.. _alphafold:
 
 ALPHAFOLD
 ---------
