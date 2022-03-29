@@ -32,7 +32,7 @@ ALPHAFOLD
 
 .. code-block:: console
 
-   qsub -q default -l select=1:ncpus=1:ngpus=1:mem=50gb:scratch_local=50gb:alphafold=True -l walltime=24:00:00 run_af
+   qsub -q default -l select=1:ncpus=8:ngpus=1:mem=50gb:scratch_local=50gb:alphafold=True -l walltime=24:00:00 run_af
 
 * path to the Alphafold database can be overridden by specifying ``data_dir`` variable.
 
