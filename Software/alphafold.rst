@@ -28,11 +28,18 @@ ALPHAFOLD
    alphafold -f <sequence.fasta>
 
 * run the script without any input or ``-h`` option to get the list of all parameters
-* submit the job to the nodes ciisb1, or ciisb14 for optimal performance, because they contain a local copy of the Alphafold Database. Otherwise, remote database is used and performance is affected. User is informed about the selected database in the output file. Example of ``qsub`` command:
+* for optimal performance, the job should be submitted to nodes containing local copy of the Alphafold Database (option ``alphafold=True``). Otherwise, remote database is used and performance is affected. User is informed about the selected database in the output file. Example of ``qsub`` command:
 
 .. code-block:: console
 
    qsub -q default -l select=1:ncpus=1:ngpus=1:mem=50gb:scratch_local=50gb:alphafold=True -l walltime=24:00:00 run_af
+
+* path to the Alphafold database can be overridden by specifying ``data_dir`` variable.
+
+.. code-block:: console
+
+   export data_dir="/user/path/to/database"
+   alphafold -f <sequence.fasta>
 
 **DEVELOPER TUTORIAL/HELP PAGES**
 
