@@ -38,7 +38,7 @@ ALPHAFOLD
 
 .. code-block:: console
 
-   export data_dir="/user/path/to/database"
+   export data_dir="/user/path/to/a/database"
    alphafold -f <sequence.fasta>
 
 **DEVELOPER TUTORIAL/HELP PAGES**
