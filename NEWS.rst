@@ -2,7 +2,7 @@
 NEWS
 ====
 22-03-29
-  * Alphafold should be submitted with ``alphafold=True`` for optimal performance. See :ref:`alphafold` for detail.
+  * Alphafold should be submitted with ``alphafold=True`` for optimal performance. See :doc:`here <./Software/alphafold.rst>` for detail.
 22-03-21
   * Alphafold 2.2.0, MMseqs2 13-45111, HHSuite 3.3.0, and  blast+ 2.13.0 installed
 22-03-02
