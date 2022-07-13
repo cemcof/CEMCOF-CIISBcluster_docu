@@ -7,10 +7,15 @@ RELION
 
 * 3.1 (build date 210226)
 * 4.0 (build date 211112)
+* 4.0 (build date 220321)
+* 3.1locsearch
+* 4.0locsearch
 
 **GENERAL INFORMATION**
 
 RELION stands for REgularised LIkelihood OptomisatioN and it is a set of programs for refinement of cryo-electron microscopy data using empirical Bayesian approach. The program has implemented workflow for analysis of single particle data, helical processing, and sub-tomogram averiging. The program is developed and maintained in the `Sjors Scheres lab`_.
+
+RELION local search modules (locsearch) represent custom version, see _`github <https://github.com/fuzikt/relion>`_ for code details.
 
 **USAGE SPECIFIC INFORMATION**
 
