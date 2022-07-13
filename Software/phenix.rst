@@ -6,6 +6,7 @@ PHENIX
 **VERSIONS:**
 
 * 1.19
+* 1.20.1
 
 **GENERAL INFORMATION**
 
