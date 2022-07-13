@@ -6,6 +6,7 @@ CCP4
 **VERSIONS:**
 
 * 7.1
+* 8.0.001
 
 **GENERAL INFORMATION**
 
