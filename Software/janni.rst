@@ -9,7 +9,7 @@ JANNI
 
 **GENERAL INFORMATION**
 
-Just another noise 2 noise implementation (JANNI) with Keras for cryo-em data.
+Just another noise 2 noise implementation (JANNI) with Keras for cryo-em data. JANNI implements a neural network denoising tool described in NVIDIA's `noise2noise paper <https://arxiv.org/abs/1803.04189>`_.
 
 **DEVELOPER TUTORIAL/HELP PAGES**
 
