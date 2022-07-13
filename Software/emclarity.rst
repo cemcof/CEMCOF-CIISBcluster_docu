@@ -6,10 +6,13 @@ EMCLARITY
 **VERSIONS:**
 
 * 1.5.3.11
+* 1.5.3.10tf
 
 **GENERAL INFORMATION**
 
 Software for high-resolution cryo-electron tomography and subtomogram averaging. The program is developed and maintained by Benjamin Himes.
+
+1.5.3.10tf represents a custom emClarity version developed by Tibor Füzik.
 
 **USAGE SPECIFIC INFORMATION**
 
