@@ -15,7 +15,7 @@ NEWS
 22-02-09
   * dynamo2m package from Alister Burt installed as a part of Dynamo installation
 22-02-08
-  * added support for interactive GUI jobs, see `here <./General/usage.html>`_ for details.
+  * added support for interactive GUI jobs, see `here <./General/Usage.html>`_ for details.
 22-01-30
   * dynamo_autoalign from Alister Burt installed
 22-01-29
