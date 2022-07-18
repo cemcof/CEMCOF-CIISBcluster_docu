@@ -18,7 +18,7 @@ TRIMAL
 
 .. code-block:: console
 
-   module add trimal
+   $ module add trimal
 
 * Module comes with datasets, which are version specific and are located in the module folder (``/cemcofsw/bioinf/trimal/VERSION/m64-deb10/single/dataset/``). 
 * Newer version 1.4.1_220323 also comes with python 2 and python 3 scripts, which are located in ``/cemcofsw/bioinf/trimal/1.4.1_220323/m64-deb10/single/scripts`` folder. Folder is added into PATH upon module activation.
