@@ -17,6 +17,9 @@ The HH-suite is an open-source software package for sensitive protein sequence s
 
    $ ssh ciisb.ceitec.muni.cz
    $ module add hhsuite
+   
+   $ hhblits -i <input-file> -o <result-file> -n 1 -d <database-basename> # single search iteration
+   $ hhblits -i <input-file> -o <result-file> -oa3m <result-alignment> -d <database-basename> # alignment
 
 **DEVELOPER TUTORIAL/HELP PAGES**
 
