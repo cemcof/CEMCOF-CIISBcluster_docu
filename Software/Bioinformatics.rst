@@ -9,6 +9,8 @@ Bioinformatics
 
    diamond
 
+   iqtree2
+
    mafft
 
    trimal
