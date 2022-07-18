@@ -9,4 +9,6 @@ Bioinformatics
 
    diamond
 
+   mafft
+
    trimal
