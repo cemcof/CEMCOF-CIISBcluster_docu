@@ -1,0 +1,25 @@
+.. iqtree2:
+
+IQ-TREE
+---------
+
+**VERSIONS:**
+
+* 2.1.2
+* 2.2.0
+
+**GENERAL INFORMATION**
+
+Efficient and versatile phylogenomic software by maximum likelihood `http://www.iqtree.org <http://www.iqtree.org>`_.
+
+**USAGE SPECIFIC INFORMATION**
+
+.. code-block:: console
+
+   $ ssh ciisb.ceitec.muni.cz
+   $ module add mafft
+   $ mafft
+
+**DEVELOPER TUTORIAL/HELP PAGES**
+
+* `github <https://github.com/iqtree/iqtree2>`_
