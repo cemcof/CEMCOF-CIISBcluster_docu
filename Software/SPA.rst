@@ -19,6 +19,8 @@ SPA
 
    scipion
 
+   spider
+
    xmipp
 
    janni
