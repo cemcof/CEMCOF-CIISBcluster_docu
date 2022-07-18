@@ -17,6 +17,8 @@ Bioinformatics
 
    mafft
    
+   mega
+   
    orfm
    
    trimal
