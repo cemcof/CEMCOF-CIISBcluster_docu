@@ -9,6 +9,8 @@ Bioinformatics
 
    diamond
 
+   figtree
+
    iqtree2
 
    jalview
