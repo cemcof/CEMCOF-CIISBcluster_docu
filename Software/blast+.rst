@@ -9,7 +9,7 @@ BLAST+
 
 **GENERAL INFORMATION**
 
-The National Center for Biotechnology Information (NCBI) Basic Local Alignment Search Tool(BLAST) finds regions of local similarity between sequences. The program compares nucleotide or protein sequences to sequence databases and calculates the statistical significance of matches. BLAST can be used to infer functional and evolutionary relationships between sequences as well as help identify members of gene families.
+The National Center for Biotechnology Information (NCBI) Basic Local Alignment Search Tool (BLAST) finds regions of local similarity between sequences. The program compares nucleotide or protein sequences to sequence databases and calculates the statistical significance of matches. BLAST can be used to infer functional and evolutionary relationships between sequences as well as help identify members of gene families.
 
 Introduced in 2009, BLAST+ is an improved version of BLAST command line applications.
 
