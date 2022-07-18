@@ -10,7 +10,9 @@ Model Building & Visualization
    ccp4
 
    ccpem
-   
+
+   chimera
+
    fiji
 
    phenix
