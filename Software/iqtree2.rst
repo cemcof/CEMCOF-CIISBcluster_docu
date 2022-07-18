@@ -36,6 +36,8 @@ Efficient and versatile phylogenomic software by maximum likelihood `http://www.
 
 **REFERENCES**
 
+When using ModelFinder please cite:
+
 * S. Kalyaanamoorthy, B.Q. Minh, T.K.F. Wong, A. von Haeseler, L.S. Jermiin (2017) ModelFinder: Fast model selection for accurate phylogenetic estimates. *Nat. Methods*, 14:587-589. https://doi.org/10.1038/nmeth.4285
 
 When performing tree reconstruction please cite:
