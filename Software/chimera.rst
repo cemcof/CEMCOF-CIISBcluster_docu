@@ -29,4 +29,4 @@ including density maps, trajectories, and sequence alignments.
 
 When using ModelFinder please cite:
 
-* `UCSF Chimera--a visualization system for exploratory research and analysis. < https://doi.org/10.1002/jcc.20084>`_ Pettersen EF, Goddard TD, Huang CC, Couch GS, Greenblatt DM, Meng EC, Ferrin TE. J Comput Chem. 2004 Oct;25(13):1605-12. 
+* `UCSF Chimera--a visualization system for exploratory research and analysis. <https://doi.org/10.1002/jcc.20084>`_ Pettersen EF, Goddard TD, Huang CC, Couch GS, Greenblatt DM, Meng EC, Ferrin TE. J Comput Chem. 2004 Oct;25(13):1605-12. 
