@@ -13,8 +13,6 @@ MMseqs2 (Many-against-Many sequence searching) is a software suite to search and
 
 **USAGE SPECIFIC INFORMATION**
 
-* loading from the modules
-
 .. code-block:: console
 
    $ ssh ciisb.ceitec.muni.cz
@@ -32,4 +30,4 @@ MMseqs2 (Many-against-Many sequence searching) is a software suite to search and
 * Steinegger M and Soeding J. MMseqs2 enables sensitive protein sequence searching for the analysis of massive data sets. Nature Biotechnology, `doi: 10.1038/nbt.3988 (2017) <https://www.nature.com/articles/nbt.3988>`_.
 * Steinegger M and Soeding J. Clustering huge protein sequence sets in linear time. Nature Communications, `doi: 10.1038/s41467-018-04964-5 <https://www.nature.com/articles/s41467-018-04964-5>`_ (2018).
 * Mirdita M, Steinegger M and Soeding J. MMseqs2 desktop and local web server app for fast, interactive sequence searches. Bioinformatics, `doi: 10.1093/bioinformatics/bty1057 <https://academic.oup.com/bioinformatics/article/35/16/2856/5280135>`_ (2019).
-* Mirdita M, Steinegger M, Breitwieser F, Soding J, Levy Karin E: Fast and sensitive taxonomic assignment to metagenomic contigs. Bioinformatics, `doi: 10.1093/bioinformatics/btab184 <https://doi.org/10.1093/bioinformatics/btab184>` (2021).
+* Mirdita M, Steinegger M, Breitwieser F, Soding J, Levy Karin E: Fast and sensitive taxonomic assignment to metagenomic contigs. Bioinformatics, `doi: 10.1093/bioinformatics/btab184 <https://doi.org/10.1093/bioinformatics/btab184>`_ (2021).
