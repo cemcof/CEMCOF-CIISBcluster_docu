@@ -1,6 +1,6 @@
 .. diamond:
 
-DYNAMO
+DIAMOND
 ---------
 
 **VERSIONS:**
