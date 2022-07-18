@@ -7,6 +7,8 @@ Bioinformatics
 
    alphafold
 
+   blast+
+
    diamond
 
    figtree
