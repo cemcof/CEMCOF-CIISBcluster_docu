@@ -17,6 +17,8 @@ SPA
 
    relion
 
+   resmap
+
    scipion
 
    spider
