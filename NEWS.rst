@@ -1,6 +1,9 @@
 ====
 NEWS
 ====
+
+22-18-07
+  * Alphafold 2.1.1 has been removed and archived.
 22-04-07
   * **New cryo software:** relion 4.0locsearch, relion 3.1locsearch, janni 0.2.2, ccp4 8.0.001, phenix 1.20.1, emClarity 1.5.3.10tf, spider 26.06, ResMap 1.1.4, Stopgap 0.7.1
   * **New bioinformatics software:** diamond 2.0.14, mafft 7.490, trimal 1.4.1, iqtree 2.1.1 and 2.2.0, jalview 2.11.2, orfm 0.7.1, figtree 1.4.4, MEGA 11.0.1, ugene 42.0
