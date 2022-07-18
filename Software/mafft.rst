@@ -17,6 +17,7 @@ MAFFT
 
    $ ssh ciisb.ceitec.muni.cz
    $ module add mafft
+   $ mafft
 
 **DEVELOPER TUTORIAL/HELP PAGES**
 
