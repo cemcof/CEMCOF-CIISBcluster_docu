@@ -18,7 +18,9 @@ Bioinformatics
    mafft
    
    mega
-   
+  
+   mmseqs2
+  
    orfm
    
    trimal
