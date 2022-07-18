@@ -14,5 +14,7 @@ Bioinformatics
    jalview
 
    mafft
-
+   
+   orfm
+   
    trimal
