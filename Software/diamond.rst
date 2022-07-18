@@ -24,4 +24,6 @@ DIAMOND is a sequence aligner for protein and translated DNA searches, designed 
 
 **DEVELOPER TUTORIAL/HELP PAGES**
 
-* `Documentation <https://github.com/bbuchfink/diamond/wiki>_`
+* `documentation <https://github.com/bbuchfink/diamond/wiki>`_
+* `github <https://github.com/bbuchfink/diamond>`_
+* Buchfink B, Reuter K, Drost HG, "Sensitive protein alignments at tree-of-life scale using DIAMOND", Nature Methods 18, 366–368 (2021). `doi:10.1038/s41592-021-01101-x <https://www.nature.com/articles/s41592-021-01101-x>`_
