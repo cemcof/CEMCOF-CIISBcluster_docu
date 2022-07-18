@@ -7,4 +7,6 @@ Bioinformatics
 
    alphafold
 
+   diamond
+
    trimal
