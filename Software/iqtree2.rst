@@ -42,20 +42,20 @@ When using ModelFinder please cite:
 
 When performing tree reconstruction please cite:
 
-* L.-T. Nguyen, H.A. Schmidt, A. von Haeseler, and B.Q. Minh (2015) IQ-TREE: A fast and effective stochastic algorithm for estimating maximum likelihood phylogenies. *Mol. Biol. Evol.*, 32, 268-274. https://doi.org/10.1093/molbev/msu300
+* L\.-T\. Nguyen, H.A. Schmidt, A. von Haeseler, and B.Q. Minh (2015) IQ-TREE: A fast and effective stochastic algorithm for estimating maximum likelihood phylogenies. *Mol. Biol. Evol.*, 32, 268-274. https://doi.org/10.1093/molbev/msu300
 
 For the ultrafast bootstrap (UFBoot) please cite:
 
-* D.T. Hoang, O. Chernomor, A. von Haeseler, B.Q. Minh, and L.S. Vinh (2017) UFBoot2: Improving the ultrafast bootstrap approximation. *Mol. Biol. Evol.*, in press. https://doi.org/10.1093/molbev/msx281
+* D\.T\. Hoang, O. Chernomor, A. von Haeseler, B.Q. Minh, and L.S. Vinh (2017) UFBoot2: Improving the ultrafast bootstrap approximation. *Mol. Biol. Evol.*, in press. https://doi.org/10.1093/molbev/msx281
 
 When using posterior mean site frequency model (PMSF) please cite:
 
-* H.C. Wang, B.Q. Minh, S. Susko, A.J. Roger (in press) Modeling site heterogeneity with posterior mean site frequency profiles accelerates accurate phylogenomic estimation. *Syst. Biol.* https://doi.org/10.1093/sysbio/syx068
+* H\.C\. Wang, B.Q. Minh, S. Susko, A.J. Roger (in press) Modeling site heterogeneity with posterior mean site frequency profiles accelerates accurate phylogenomic estimation. *Syst. Biol.* https://doi.org/10.1093/sysbio/syx068
 
 When using partition models please cite:
 
-* O. Chernomor, A. von Haeseler, B.Q. Minh (2016) Terrace aware data structure for phylogenomic inference from supermatrices. *Syst. Biol.*, 65:997-1008. https://doi.org/10.1093/sysbio/syw037
+* O\. Chernomor, A. von Haeseler, B.Q. Minh (2016) Terrace aware data structure for phylogenomic inference from supermatrices. *Syst. Biol.*, 65:997-1008. https://doi.org/10.1093/sysbio/syw037
 
 When using polymorphism-aware models please cite:
 
-* D. Schrempf, B.Q. Minh, N. De Maio, A. von Haeseler, C. Kosiol (2016) Reversible polymorphism-aware phylogenetic models and their application to tree inference. *J. Theor. Biol.*, 407:362-370. https://doi.org/10.1016/j.jtbi.2016.07.042
+* D\. Schrempf, B.Q. Minh, N. De Maio, A. von Haeseler, C. Kosiol (2016) Reversible polymorphism-aware phylogenetic models and their application to tree inference. *J. Theor. Biol.*, 407:362-370. https://doi.org/10.1016/j.jtbi.2016.07.042
