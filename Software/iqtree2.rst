@@ -29,10 +29,10 @@ Efficient and versatile phylogenomic software by maximum likelihood `http://www.
 
 **DEVELOPER TUTORIAL/HELP PAGES**
 
-* `github <https://github.com/iqtree/iqtree2>`_
-* `webpages <http://www.iqtree.org/>`_
-* `web service <http://iqtree.cibiv.univie.ac.at>`_
-* `user support <https://groups.google.com/d/forum/iqtree>`_
+* `Github <https://github.com/iqtree/iqtree2>`_
+* `Web Pages <http://www.iqtree.org/>`_
+* `Web Service <http://iqtree.cibiv.univie.ac.at>`_
+* `User Support <https://groups.google.com/d/forum/iqtree>`_
 
 **REFERENCES**
 
