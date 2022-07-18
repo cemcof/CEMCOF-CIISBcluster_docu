@@ -20,8 +20,9 @@ DIAMOND is a sequence aligner for protein and translated DNA searches, designed 
 
 .. code-block:: console
 
-   ssh ciisb.ceitec.muni.cz
-   module add diamond
+   $ ssh ciisb.ceitec.muni.cz
+   $ module add diamond
+   $ diamond help
 
 **DEVELOPER TUTORIAL/HELP PAGES**
 
