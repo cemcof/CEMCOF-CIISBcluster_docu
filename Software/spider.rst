@@ -24,4 +24,3 @@ The lastest release from July 2020 (which will probably be the final release) co
 **DEVELOPER TUTORIAL/HELP PAGES**
 
 * `Github <https://github.com/spider-em/SPIDER>`_
-* `Documentation <spider.wadsworth.org/spider_doc/spider/docs/spider.html>`_
