@@ -11,6 +11,8 @@ Bioinformatics
 
    figtree
 
+   hhsuite
+
    iqtree2
 
    jalview
