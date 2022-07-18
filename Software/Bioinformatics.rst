@@ -22,3 +22,5 @@ Bioinformatics
    orfm
    
    trimal
+
+   ugene
