@@ -22,8 +22,7 @@ summarized and annotated trees produced by BEAST.
    $ module add figtree
    $ figtree
    
-* Version 1.4.4 was released in 2018. Code from master branch was thus used instead, because it has been developed further without
-an official release.
+* Version 1.4.4 was released in 2018. However, master branch has been further developed since then without an official release. Master code was thus used instead.
 
 **DEVELOPER TUTORIAL/HELP PAGES**
 
