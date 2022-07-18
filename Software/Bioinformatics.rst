@@ -11,6 +11,8 @@ Bioinformatics
 
    iqtree2
 
+   jalview
+
    mafft
 
    trimal
