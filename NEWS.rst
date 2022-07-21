@@ -2,6 +2,8 @@
 NEWS
 ====
 
+22-21-07
+  * EMAN 2.91 module added
 22-18-07
   * Alphafold 2.1.1 has been removed and archived.
 22-04-07
