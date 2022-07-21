@@ -6,6 +6,7 @@ EMAN2
 **VERSIONS:**
 
 * 2.31
+* 2.91
 
 **GENERAL INFORMATION**
 
