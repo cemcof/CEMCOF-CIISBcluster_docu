@@ -17,6 +17,8 @@ Other Tools
 
    gctf
 
+   locscale
+
    motioncor2
 
    pyem
