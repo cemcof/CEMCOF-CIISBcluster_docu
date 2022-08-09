@@ -18,7 +18,7 @@ LocScale is a reference-based local amplitude scaling tool using information on 
    $ ssh ciisb.ceitec.muni.cz
    $ module add locscale
 
-* **WARNING:** locscale module overrides mpirun command to allow running in parallel. This is because conda environment needs to be activated apriory. Thus, module might interfere with other programs using mpirun and should be used only on its own. For details, see file ``/cemcofsw/em/locscale/2.0/x86_64/para/bin/mpirun``.
+* **WARNING:** locscale module overrides mpirun command to allow running in parallel. This is because conda environment needs to be activated apriory. Thus, locscale module might interfere with other programs using mpirun and should be used only on its own. For technical details, see file ``/cemcofsw/em/locscale/2.0/x86_64/para/bin/mpirun``.
 * For single run:
 
 .. code-block:: console
@@ -30,7 +30,6 @@ LocScale is a reference-based local amplitude scaling tool using information on 
 .. code-block:: console
 
    $ mpirun -np 4 locscale run_locscale -em path/to/emmap.mrc -mc path/to/model.pdb -res 3 -v -o model_based_locscale.mrc -mpi
-
 
 **DEVELOPER TUTORIAL/HELP PAGES**
 
