@@ -1,7 +1,8 @@
 ====
 NEWS
 ====
-
+22-18-07
+  * Alphafold 2.1.0 has been removed and archived.
 22-09-08
   * LocScale 2.0 installed
 22-21-07
