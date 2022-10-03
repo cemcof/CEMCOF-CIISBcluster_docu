@@ -8,6 +8,7 @@ RELION
 * 3.1 (build date 210226)
 * 4.0 (build date 211112)
 * 4.0 (build date 220321)
+* 4.0.0 (release)
 * 3.1locsearch
 * 4.0locsearch
 
