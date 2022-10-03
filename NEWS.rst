@@ -1,6 +1,10 @@
 ====
 NEWS
 ====
+22-03-10
+  * relion 4.0.0 installed.
+22-18-08
+  * cryodrgn 1.1 installed.
 22-18-07
   * Alphafold 2.1.0 has been removed and archived.
 22-09-08
