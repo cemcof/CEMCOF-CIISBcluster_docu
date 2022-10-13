@@ -1,6 +1,8 @@
 ====
 NEWS
 ====
+22-10-11
+  * ModelAngelo 0.0.1 and FFmpeg 5.1.2 installed
 22-10-03
   * relion 4.0.0 installed.
 22-08-18
