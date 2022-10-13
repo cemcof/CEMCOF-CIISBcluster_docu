@@ -22,6 +22,5 @@ ModelAngelo
 
 **DEVELOPER TUTORIAL/HELP PAGES**
 
-* methodology_
-
-.. _methodology: https://arxiv.org/pdf/2210.00006.pdf
+* `GitHub <https://github.com/3dem/model-angelo>`_
+* `Pre-print <https://arxiv.org/pdf/2210.00006.pdf>`_
