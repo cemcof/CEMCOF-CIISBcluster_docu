@@ -6,7 +6,7 @@ ALPHAFOLD
 **VERSIONS:**
 
 * 2.1.1 (archived)
-* 2.1.2
+* 2.1.2 (archived)
 * 2.2.0
 
 **GENERAL INFORMATION**
