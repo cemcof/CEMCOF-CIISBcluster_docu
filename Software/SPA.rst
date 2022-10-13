@@ -15,6 +15,8 @@ SPA
 
    frealign
 
+   modelangelo
+
    relion
 
    resmap
