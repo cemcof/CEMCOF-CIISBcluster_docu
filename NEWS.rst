@@ -1,6 +1,8 @@
 ====
 NEWS
 ====
+22-11-04
+  * Alphafold 2.2.4 installed
 22-10-11
   * ModelAngelo 0.0.1 and FFmpeg 5.1.2 installed
 22-10-03
