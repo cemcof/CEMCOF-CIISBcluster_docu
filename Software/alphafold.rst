@@ -8,6 +8,7 @@ ALPHAFOLD
 * 2.1.1 (archived)
 * 2.1.2 (archived)
 * 2.2.0
+* 2.2.4
 
 **GENERAL INFORMATION**
 
