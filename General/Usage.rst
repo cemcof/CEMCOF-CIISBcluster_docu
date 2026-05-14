@@ -139,9 +139,11 @@ For Windows and macOS workstations, connect via an SSH tunnel first and then ope
 
    user@localmachine:~$ ssh -L 590{D}:/home/{user}/.vnc/{node}.{D}.socket {user}@{node}
 
-Replace placeholders (including braces) with your actual values: ``D`` is display number (e.g. ``1`` from ``VNCSERVER_INFO``), ``user`` is your Linux username and ``node`` is the node hostname (e.g. ``cemcof9.ceitec.muni.cz`` from ``VNCSERVER_INFO``). Keep this SSH connection open and connect your VNC viewer to ``localhost:590{D}`` (e.g. ``localhost:5901`` for display ``1``).
+Replace placeholders (including braces) with your actual values. ``D`` is display number (e.g. ``1`` from ``VNCSERVER_INFO``). ``user`` is your Linux username and ``node`` is the node hostname (e.g. ``cemcof9.ceitec.muni.cz`` from ``VNCSERVER_INFO``). Keep this SSH connection open and connect your VNC viewer to ``localhost:590{D}`` (e.g. ``localhost:5901`` for display ``1``).
 
-*Note: built-in macOS VNC viewer does not work with this setup; use a dedicated client such as RealVNC.*
+.. note::
+
+   Built-in macOS VNC viewer does not work with this setup; use a dedicated client such as RealVNC.
 
 5.) Vncviewer window opens, left click on the icon of the terminal in the left upper corner and access your GUI applications from the command line. If the window is closed, the session is not terminated and can be accessed later (until the job is killed by walltime). To reconnect, just rerun the ``vncviewer`` command with given VNCID.
 
