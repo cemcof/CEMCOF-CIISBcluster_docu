@@ -145,6 +145,7 @@ Replace placeholders (including braces) with your actual values:
 - ``user`` is your Linux username.
 - ``node`` is the node hostname (e.g. ``ciisb1.ceitec.muni.cz`` from ``VNCSERVER_INFO``).
 
+Use the node value exactly as shown in ``VNCSERVER_INFO`` in both ``{user}@{node}`` and ``/home/{user}/.vnc/{node}.{D}.socket``.
 Use the socket path reported for your session in ``VNCSERVER_INFO``.
 
 Keep this SSH connection open. Then connect your VNC viewer to ``localhost:590{D}`` (e.g. ``localhost:5901`` for display ``1``).
